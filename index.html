@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>recipes</title>
 </head>
 <body>
     <h1>Odin recipes</h1>
+ 
+    <h2>Featured Recipes;</h2>
+
+<figure>
+    <h3><a href="recipes/lasagnas.html">1. Classic Beef Lasagna</a></h3>
+  <img src="https://images.pexels.com/photos/31119078/pexels-photo-31119078.jpeg" alt="Classic Lasagna" width="100%">
+  <figcaption>
+    <p>Layers of seasoned ground beef, marinara sauce, and ricotta, topped with golden melted mozzarella.</p>
+  </figcaption>
+</figure>
+
+<figure>
+    <h3><a href="recipes/meatball.html">2. Spaghetti Sauce with Meatballs</a></h3>
+  <img src="https://www.allrecipes.com/thmb/7nX1BQ26m5_ke-MruMuy0V1Mlq4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/21353-italian-spaghetti-sauce-with-meatballs-DDMFS-4x3-a9a1528b4f06483dbec38d0c2945c378.jpg" alt="Spaghetti with Meatballs" width="100%">
+  <figcaption>
+    <p>Tender homemade meatballs simmered in a slow garlic and herb tomato reduction over spaghetti.</p>
+  </figcaption>
+</figure>
+<hr>
+
+<h2>At a Glance</h2>
+
+<table border="1" cellpadding="6">
+  <tr>
+    <th>Recipe</th>
+    <th>Total Time</th>
+    <th>Difficulty</th>
+    <th>Page Link</th>
+  </tr>
+  <tr>
+    <td>Beef Lasagna</td>
+    <td>45 min</td>
+    <td>Very Easy</td>
+    <td><a href="recipes/lasagnas.html">Open Lasagna</a></td>
+  </tr>
+  <tr>
+    <td>Spaghetti &amp; Meatballs</td>
+    <td>1hr 5 min</td>
+    <td>Medium</td>
+    <td><a href="recipes/meatball.html">Open Spaghetti</a></td>
+  </tr>
+</table>
+<hr>
+
+<h2>Pantry Essentials Checklist</h2>
+<p>Make sure you have these stocked before you start cooking:</p>
+<ul>
+  <li><label><input type="checkbox"> Extra virgin olive oil</label></li>
+  <li><label><input type="checkbox"> Dried Italian herbs (oregano, basil)</label></li>
+  <li><label><input type="checkbox"> Fresh garlic cloves &amp; yellow onions</label></li>
+  <li><label><input type="checkbox"> Block of Parmesan cheese</label></li>
+</ul>
+<hr>
+
+<h2>Suggest a Future Recipe</h2>
+
+<form>
+  <label for="dish-name">Recipe Name:</label><br>
+  <input type="text" id="dish-name" name="dish-name" placeholder="e.g. Chicken Alfredo"><br><br>
+
+  <label for="cuisine">Cuisine Type:</label><br>
+  <select id="cuisine" name="cuisine">
+    <option value="italian">Italian</option>
+    <option value="indian">Indian</option>
+    <option value="continental">Continental</option>
+  </select><br><br>
+
+  <label for="notes">Notes or special ingredients:</label><br>
+  <textarea id="notes" name="notes" rows="3" cols="30" placeholder="e.g. Needs extra garlic..."></textarea><br><br>
+
+  <button type="button">Submit Suggestion</button>
+</form>
+<hr>
 </body>
 </html>
